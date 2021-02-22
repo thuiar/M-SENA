@@ -110,8 +110,10 @@ cd M-SENA-Backend
     source active sena
     pip install requirements.txt
     ```
+  - Download [Bert-Base, Chinese](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip) from [Google-Bert](https://github.com/google-research/bert). Then, convert Tensorflow into pytorch using [transformers-cli](https://huggingface.co/transformers/converting_tensorflow_models.html)  
+  - Install [Openface Toolkits](https://github.com/TadasBaltrusaitis/OpenFace/wiki)
 
-- Download datasets and format them according to [Datasets](#Datasets)
+- Download datasets and format them using `MM-Codes/data/DataPre.py`
 - Update global variables in `constants.py`
 - Update basic config in `config.sh`
 - Run
