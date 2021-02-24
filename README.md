@@ -1,6 +1,6 @@
 [![](https://badgen.net/badge/license/GPL-3.0/green)](#License) [![](https://badgen.net/badge/contact/THUIAR/purple)](https://thuiar.github.io/)
 
-M-SENA: An All-in-One Platform for Multimodal Sentiment Analysis
+**M-SENA: An All-in-One Platform for Multimodal Sentiment Analysis**
 
 The M-SENA Platform supports AI-assisted data labeling, data and model management, as well as model training and evaluation. It aims to help researchers save effort on unimportant operations and focus more on data and models. 
 
