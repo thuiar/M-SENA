@@ -28,7 +28,7 @@ $ docker pull flamesky/m-sena-platform:latest
 - Run the following command:
 
 ```shell
-docker run -itd -p 5000:5000 -p 80:80 -p 8096:8096 --env BASE_URL="your_server_ip" flamesky/m-sena-platform:latest
+$ docker run -itd -p 5000:5000 -p 80:80 -p 8096:8096 --env BASE_URL="your_server_ip" flamesky/m-sena-platform:latest
 ```
 
 The `-p` arguments foward 3 ports from docker to the host machine. Do not alter the mappings unless you know what you're doing. 
