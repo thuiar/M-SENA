@@ -13,13 +13,13 @@ The platform is developed with frontend and backend seperated into two repos:
 
 ## Docker
 
-For demonstration, we provide a [docker image](https://hub.docker.com/repository/docker/flamesky/m-sena-platform/general) with one chinese dataset and two pretrained models integrated. To reduce image size, there's also an image with no datasets included.
+For demonstration, we provide a [docker image](https://hub.docker.com/repository/docker/flamesky/m-sena-platform) with one chinese dataset and two pretrained models integrated. To reduce image size, there's also an image with no datasets included.
 
 > Note: The docker images are for demonstration purposes only. There's no guarantee on performance(no cuda support) or stability. For production purposes, please refer to [Build from Scratch](#build-from-scratch).
  
 Follow below steps to use the docker image:
 
-- Download docker image from [Docker Hub](https://hub.docker.com/repository/docker/flamesky/m-sena-platform/general) or use the command-line tool:
+- Download docker image from [Docker Hub](https://hub.docker.com/repository/docker/flamesky/m-sena-platform) or use the command-line tool:
 
 ```shell
 $ docker pull flamesky/m-sena-platform:latest
@@ -41,8 +41,8 @@ The `--env` argument sets a global environment variable `BASE_URL`. You should c
 
 Follow the instructions on these pages to set up frontend and backend on your server:
 
-- [Frontend](https://github.com/FlameSky-S/M-SENA-frontend)
-- [Backend](https://github.com/FlameSky-S/M-SENA-frontend)
+- [Frontend](https://github.com/FlameSky-S/M-SENA-frontend#installation)
+- [Backend](https://github.com/iyuge2/M-SENA-Backend#installation)
 
 You can deploy frontend and backend on separate servers. 
 
