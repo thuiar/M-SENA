@@ -23,7 +23,7 @@ The platform is developed with frontend and backend seperated into two repos. Fo
 
 ## Usage
 
-The platform comes with an easy-to-use GUI, a demonstration video is avaliable at [Youtube]().
+The platform comes with an easy-to-use GUI, a demonstration video is avaliable at [Youtube](https://youtu.be/ID2rrvu19Jc).
 
 ## Citation
 
