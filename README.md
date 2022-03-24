@@ -1,55 +1,40 @@
 [![](https://badgen.net/badge/license/GPL-3.0/green)](#License) [![](https://badgen.net/badge/contact/THUIAR/purple)](https://thuiar.github.io/)
 
-**M-SENA: An All-in-One Platform for Multimodal Sentiment Analysis**
+## M-SENA: An Integrated Platform for Multimodal Sentiment Analysis
 
-The M-SENA Platform supports AI-assisted data labeling, data and model management, as well as model training and evaluation. It aims to help researchers save effort on insignificant details and focus more on analyzing data and models. 
+> **Note:** M-SENA is a research project, and is for demonstration purposes only. We give our best effort to make the platform run smoothly but we make no guarantees about the robustness of the platform. For meticulous research purposes, we recommand using the toolkits listed below, which are dedicated to reproduceable experiments and benchmarks. 
 
-The platform is developed with frontend and backend seperated into two repos:
+**M-SENA** is an open-sourced platform for Multimodal Sentiment Analysis. It aims to facilitate advanced research by providing flexible toolkits, reliable benchmarks, and intuitive demonstrations. 
+
+The platform integrates two of our research toolkits, we highly recommand advanced researchers to use these toolkits: 
+
+- [MMSA](https://github.com/thuiar/MMSA): *A unified framework for Multimodal Sentiment Analysis, dedicated to fair and reproduceable experiments.*
+- [MMSA-FET](https://github.com/thuiar/MMSA-FET): *A Feature Extraction Toolkit compatible with MMSA, can extract highly customized modality features.* 
+
+
+## Installation
+
+The platform is developed with frontend and backend seperated into two repos. Follow the instructions in these repos to set up frontend and backend on your server. You can deploy frontend and backend on separate servers. 
 
 - [M-SENA Frontend](https://github.com/FlameSky-S/M-SENA-frontend)
 - [M-SENA Backend](https://github.com/iyuge2/M-SENA-Backend)
 
-# Installation
 
-## Docker
 
-For demonstration, we provide a [docker image](https://hub.docker.com/repository/docker/flamesky/m-sena-platform) with one chinese dataset and two pretrained models integrated. To reduce image size, there's also an image with no datasets included.
+## Usage
 
-> Note: The docker images are for demonstration purposes only. There's no guarantee on performance(no cuda support) or stability. For production purposes, please refer to [Build from Scratch](#build-from-scratch).
- 
-Follow below steps to use the docker image:
+The platform comes with an easy-to-use GUI, a demonstration video is avaliable at [Youtube]().
 
-- Download docker image from [Docker Hub](https://hub.docker.com/repository/docker/flamesky/m-sena-platform) or use the command-line tool:
+## Citation
 
-```shell
-$ docker pull flamesky/m-sena-platform:latest
+If you find our works useful, please cite our paper. 
+
+- M-SENA: An Integrated Platform for Multimodal Sentiment Analysis
+
+```text
+
 ```
 
-- Run the following command:
-
-```shell
-$ docker run -itd -p 5000:5000 -p 80:80 -p 8096:8096 --env BASE_URL="your_server_ip" flamesky/m-sena-platform:latest
-```
-
-The `-p` arguments foward 3 ports from docker to the host machine. Do not alter the mappings unless you know what you're doing. 
-
-The `--env` argument sets a global environment variable `BASE_URL`. You should change `your_server_ip` into your server's ip address.
-
-- Open browser and visit your server's ip address.
-
-## Build from Scratch
-
-Follow the instructions on these pages to set up frontend and backend on your server:
-
-- [Frontend](https://github.com/FlameSky-S/M-SENA-frontend#installation)
-- [Backend](https://github.com/iyuge2/M-SENA-Backend#installation)
-
-You can deploy frontend and backend on separate servers. 
-
-# Collaboration
-
-For commercial collaborations (model customization, data customization, end-to-end function development, etc.), please contact THUIAR Team at xuhua@tsinghua.edu.cn
-
-# License
+## License
 
 M-SENA Platform is published under the GNU GPL 3 license.
