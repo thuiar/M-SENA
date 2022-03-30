@@ -43,3 +43,5 @@ If you find our works useful, please cite our paper.
 ## License
 
 M-SENA Platform is published under the GNU GPLv3 license.
+
+![Begging for Stars](star.gif)
