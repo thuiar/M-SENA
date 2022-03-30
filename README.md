@@ -32,9 +32,14 @@ If you find our works useful, please cite our paper.
 - M-SENA: An Integrated Platform for Multimodal Sentiment Analysis
 
 ```text
-
+@article{mao2022m,
+  title={M-SENA: An Integrated Platform for Multimodal Sentiment Analysis},
+  author={Mao, Huisheng and Yuan, Ziqi and Xu, Hua and Yu, Wenmeng and Liu, Yihe and Gao, Kai},
+  journal={arXiv preprint arXiv:2203.12441},
+  year={2022}
+}
 ```
 
 ## License
 
-M-SENA Platform is published under the GNU GPL 3 license.
+M-SENA Platform is published under the GNU GPLv3 license.
